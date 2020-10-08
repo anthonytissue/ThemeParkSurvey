@@ -24,7 +24,13 @@ public class Main {
     {
       System.out.println("You can not go on the ride")
     }
-    else if (height == 64)
+    else if (height <== 64)
+    {
+      System.out.println(Height is 64)
+    }
+    else
+    {
+      System.out.println(Height is )
 
   }
 }
