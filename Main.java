@@ -18,19 +18,17 @@ public class Main {
     System.out.println("1 2 3 4 5 6 7 8 9 10");
     String rate = scan.next();
     System.out.println("");
-    {
-    int height = 64
-    if (height < 64)
-    {
-      System.out.println("You can not go on the ride")
-    }
-    else if (height <== 64)
-    {
-      System.out.println(Height is 64)
-    }
-    else
-    {
-      System.out.println(Height is )
+   if(height >= 54 && height <= 78)
+   {
+    System.out.println("You can ride");
+   }
+   else
+   {
+    System.out.println("You cant ride");
+   }
+
+
 
   }
-}
+} 
+
