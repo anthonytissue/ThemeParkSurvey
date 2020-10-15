@@ -16,7 +16,7 @@ public class Main {
     String why = sc.next();
     System.out.println("");
     System.out.println("What is your height?");
-   int height = sc.nextInt(); //type your height here
+   int height = sc.nextInt(); //sometimes this doesnt work, rerun until it does
    if(height >= 54 && height <= 78)
    {
     System.out.println("You can ride the Swirly Snake");
